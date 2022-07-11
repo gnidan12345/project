@@ -137,13 +137,20 @@ console.log(result);
     let result = '';
     const length = 5;
 
-    for (let i = 1; i < length; i++){
+    for (let i = 0; i <= length; i++){
         for (let j = 0; j < length - i; j++){
-            result +=  ' '
+            result +=  " ";
+
+            console.log(j)
             
         }
-        for (let j = 0; j < 2 * i +1;)
-        {result += "*"}
+        for (let j = 0; j < 2 * i +1; j++)
+        {result += "*"
+
+        // console.log(j)
+    }
+
+       
 
         result += '\n';
     }
