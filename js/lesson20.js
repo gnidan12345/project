@@ -8,7 +8,7 @@ if(4==9){
 if (1){
     console.log ('Ok');
 }else{
-    console.log('Error')
+    console.log('Error1')
 }
 
 
