@@ -27,7 +27,7 @@ const b = 'b';
 // arrObj.b = '1234';
 arrObj['b'] = '1234';
 
-arrObj[b] = '1234'
+arrObj[b] = '1234';
 
 console.log(arrObj['b']);
 console.log(arrObj.b);

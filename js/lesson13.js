@@ -7,7 +7,7 @@
 
 // console.log(result);
 
-// const answer = +prompt("Are you 18?", "18");
+const answer = +prompt("Are you 18?", "18");
 
 // console.log(typeof(answer)); 
 // console.log((answer + 5)); 
