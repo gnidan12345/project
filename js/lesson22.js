@@ -13,9 +13,10 @@ let num = 50;
 // }
 //   while(num < 55);
 
-  for (let i = 1; i < 10; i++){
+  for (let i = 2; i < 10; i++){
       if (i === 4){
           break;
+          //continue;
       }
     console.log(num++);
   }

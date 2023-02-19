@@ -6,6 +6,8 @@ function fib(num){
     }
     if (num > 0 )
     {
+
+        // fib(4) => "0 1 1 2"
         let first = 0;
         let second = 1; 
         for (let i = 0; i < num; i++) {

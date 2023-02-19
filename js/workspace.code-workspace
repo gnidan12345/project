@@ -5,9 +5,15 @@
 		},
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../../../Movies"
+		},
+		{
+			"path": "../../../../Cypress/CpressProject1"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "WorkMack"
+		"liveServer.settings.multiRootWorkspaceName": "JSfiles"
 	}
 }

@@ -43,7 +43,7 @@ console.log(i);
 const numbers =  []; 
 
 for (i = 5; i <=10; i++){
-   numbers [i] = i
+   numbers [i - 5] = i
 }
 console.log(numbers);
 
@@ -71,13 +71,13 @@ console.log(numbers);
 // console.log(arrayOfNumbers);
 
 
-const arrayOfNumbers = [];
+// const arrayOfNumbers = [];
 
-for(let i = 5; i < 11; i++){
-    arrayOfNumbers[i - 5] = i;
-}
+// for(let i = 5; i < 11; i++){
+//     arrayOfNumbers[i - 5] = i;
+// }
 
-console.log(arrayOfNumbers);
+// console.log(arrayOfNumbers);
 
 
 const arr = [3, 5, 8, 16, 20, 23, 50];
@@ -134,7 +134,9 @@ console.log(result);
 //     console.log(result);
 
 
-    let result = '';
+
+
+
     const length = 5;
 
     for (let i = 0; i <= length; i++){
@@ -159,3 +161,61 @@ console.log(result);
      
 
 
+    for (let i = 2; i <= 16; i++) {
+        if (i % 2 === 0) {
+            continue;
+        } else {
+            console.log(i);
+        }
+    }
+
+
+    do {console.log(i)  }
+    while (i <= 16)
+
+ 
+
+    let arrayOfNumbers  = [];
+    function fifthTask() {
+        for( let i = 5; i <= 10; i++){
+            for(let j =0; j <i; j++){
+                arr[j] = i;
+
+            }
+            
+        }
+            return arr;
+            
+         
+            console.log(arrayOfNumbers);
+        }
+
+
+        // function thirdTask() {
+        //     // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+        //     const data = [5, 10, 'Shopping', 20, 'Homework'];
+        //     const result = [];
+
+
+        //     for (let i = 1; i <=  data.length; i++){
+        //         result[i - 1] = data[data.length - i]
+
+        //     }
+        //     console.log(result);
+        // }
+
+
+      
+            // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+            const data = [5, 10, 'Shopping', 20, 'Homework'];
+            const result = [];
+        
+        
+            for (let i = 1; i <= data.length; i++) {
+                result[i - 1] = data[data.length - i]
+            }
+        
+            console.log(result); 
+      
+
+       
